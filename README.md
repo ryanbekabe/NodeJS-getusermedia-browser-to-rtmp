@@ -6,6 +6,16 @@ Ref 21:02 14/10/2021 : https://github.com/chenxiaoqino/getusermedia-to-rtmp
 
 : https://github.com/apivideo/browserLiveStream
 
+```git
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:ryanbekabe/NodeJS-getusermedia-browser-to-rtmp.git
+git push -u origin main
+```
+
+
 This project intends to allow an endpoint user to submit RTMP live video streaming directly using web browser and `getUserMedia`, without installing additional software. Currently, only Firefox with `MediaRecorder` API is supported.
 
 ## Usage
